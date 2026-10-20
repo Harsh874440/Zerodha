@@ -1,7 +1,7 @@
 const {Schema}=require("mongoose");
 
 
-const OredrSchema=new schema({
+const OrderSchema=new Schema({
     name:String,
     qty:Number,
     price:Number,
@@ -9,4 +9,4 @@ const OredrSchema=new schema({
 })
 
 
-module.exports({OrderSchema});
+module.exports={OrderSchema};

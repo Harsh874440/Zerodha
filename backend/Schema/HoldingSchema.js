@@ -11,4 +11,4 @@ const HoldingSchema= new Schema({
   }
 )
 
-module.exports({HoldingSchema});
+module.exports= {HoldingSchema};
